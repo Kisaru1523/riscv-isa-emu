@@ -17,7 +17,7 @@ RAM_SIZE = 1024         # bytes
 
 # 1. Open and read your binary file here
 # ======================================
-f = open(os.path.dirname(sys.argv[0])+"\simple.bin", "rb")
+f = open(os.path.dirname(sys.argv[0])+"\01 simple_add.bin", "rb")
 RAM = f.read()  # read contents into RAM variable
 f.close()
 
