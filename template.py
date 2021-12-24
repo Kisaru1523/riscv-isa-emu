@@ -25,7 +25,7 @@ print ("Binary Commands")
 print ("===============")
 i = 0
 while i < instruction_count:
- CMD = struct.unpack('<i', RAM[i*4:(i*4)+4])[0] # combine 4 bytes and store
+ CMD = struct.unpack('<i', RAM[i*4:(i*4)+4])[0]  # combine 4 bytes and store
 the 32 bit result in variable CMD
  print ('{0:032b}'.format(CMD)) # print CMD in binary
  i = i+1
