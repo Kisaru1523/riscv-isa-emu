@@ -10,7 +10,7 @@
 # Arnan Sipitakiat. Dept. Computer Engineering. Chiang Mai University, Thailand
 import struct
 import os, sys
-RAM_SIZE = 1024 # bytes
+RAM_SIZE = 1024 # bytess
 # 1. Open and read your binary file here
 # ======================================
 f = open(os.path.dirname(sys.argv[0])+"/tests/02 loop.bin", "rb")
